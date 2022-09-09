@@ -1,7 +1,12 @@
-// Helpful links: http://adripofjavascript.com/blog/drips/an-introduction-to-iffes-immediately-invoked-function-expressions.html
+// Helpful links: 
+// http://adripofjavascript.com/blog/drips/an-introduction-to-iffes-immediately-invoked-function-expressions.html
+// https://www.youtube.com/watch?v=wfMtDGfHWpA
 
 
 // FACTORY FUNCTION
+// Some people believe that factory functions (with composition) are better than classes (with inheritance).
+// For an "is-a" relationship, people argue that you should use inheritance; for a "has-a" nature, people argue that you should use factory functions.
+// However, some people think that you can just use factory functions and composition.
 const personFactory = (name, age) => {
   const sayHello = () => console.log('hello!');
   return { name, age, sayHello };
