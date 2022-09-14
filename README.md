@@ -1,8 +1,8 @@
 # My Notes from The Odin Project
-## Left off at: 
+## Left Off At: 
   - Javascript 
       - ES6 Modules
-        - Webpack
+        - Working With APIs
 
 ## Useful Tools:
   - ([**Prettier**](https://prettier.io/playground/)) 
